@@ -1,0 +1,23 @@
+.container {
+    border: 2px solid;
+    border-radius: 2px;
+    background-color: rgba(36, 36, 36, 0.901);
+    border-radius: 10px;
+}
+
+html {
+    background-image: url(images/image.png);
+    background-attachment: fixed; 
+    backdrop-filter: blur(3px);
+    background-size: cover;
+}
+
+.col input, p {
+    background-color: rgb(255, 255, 255);
+
+}
+
+body {
+    background-color: transparent !important;
+    backdrop-filter: blur(1px);
+}
